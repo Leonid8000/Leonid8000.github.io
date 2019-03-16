@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="text/html" charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css?family=Anton|Do+Hyeon|Oleo+Script" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="preloader">
+    <div class="preloader__content">
+        <div class="preloader__first"></div>
+        <div class="preloader__second"></div>
+        <div class="preloader__third"></div>
+    </div>
+</div>
+
+<nav>
+    <div class="toggle"></div>
+
+    <div class="overlay"></div>
+
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+        </ul>
+    </div>
+</nav>
+
+<header>
+    <div class="logo">
+        <span class="first__l">L</span>
+    </div>
+</header>
+
+  <!--Portfolio  -->
+<section id="portfolio_section">
+
+
+<div class="portfolio_title">
+    <h2>Web Developer Portfolio</h2>
+</div>
+
+<div class="portfolio_text">
+    <h3>
+        From Web Components and UI/UX animations to React.JS, Redux, Vue.JS, and Node.JS. Check out my latest web software development portfolio projects.
+    </h3>
+</div>
+
+
+    <div class=" filter__btns">
+        <ul>
+            <li class="button active" id="abc" data-filter="all">All</li>
+            <li class="button" data-filter="front_end">Front-end</li>
+            <li class="button" data-filter="back-end">Back-end</li>
+            <li class="button" data-filter="php">Php</li>
+            <li class="button" data-filter="js">Java Script</li>
+        </ul>
+    </div>
+
+        <div>
+            <div class="my_projects" >
+                <div class="box_div filter front_end">
+                    <div class="figures">
+                        <img src="img/portfolio.png" alt="project1">
+                        <div class="caption">
+                            <div class="about_pro">
+                                <p>This is my first portfolio.Build using: Html/Css, Js, baffle.js.</p>
+                                <div class="demo_code">
+                                    <div class="tech_item"><a href="#">Demo</a></div>
+                                    <div class="tech_item"><a href="https://github.com/Leonid8000/portfolio">Code</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="box_div filter php">
+                    <div class="figures">
+                        <img src="img/project2.jpg" alt="project1">
+                        <div class="caption">
+                            <div class="about_pro">
+                                <p>Almost all DOM generates bu JS. Build using MVC pattern. Less preprocessor Php</p>
+                                <div class="demo_code">
+                                    <div class="tech_item"><a href="#">Demo</a></div>
+                                    <div class="tech_item"><a href="#">Code</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script async src="js/portfolio.js"></script>
+</body>
+</html>
